@@ -1,0 +1,126 @@
+/* Root Here */
+:root {
+    --buttonBoard: navy;
+    --buttonBack: rgb(11, 68, 87);
+    --marginBase: 15pm;
+    --buttonHover: blue;
+    --buttonFontCol: white;
+}
+
+
+/* Universal Here */
+*,
+*::before *::after {
+    box-sizing: border-box;
+}
+
+/* Elements Here */
+body {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    padding: 0 0 0 0 ;
+    margin: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: var(--marginBase);
+}
+
+section {
+    display: flex;
+    margin: 0 auto;
+    width: 66%;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: var(--buttonBack);
+    border-radius: var(--marginBase);
+    color: var(--buttonFontCol);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 16px;
+    width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 15s;
+    transition-timing-function: linear;
+    margin: auto;
+    display: block;
+}
+
+form {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    max-width: 255px;
+}
+
+/* Classes Here */
+.score {
+    border: solid;
+    background: var(--buttonBoard);
+    border-radius: var (--marginBase);
+    background-color: var(--buttonBack);
+    color: var(--buttonFontCol);
+    padding: 0.5rem;
+}
+
+/* IDs Here */
+
+#quiz {
+    display: none;
+}
+
+#high-score-display {
+    display: none;
+}
+
+#high-score-input {
+    display: none;
+}
+
+#high-score-display ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Pseudo Here*/
+.score:hover {
+    cursor: pointer;
+    background-color: var(--buttonHover);
+}
+
+button:hover {
+    background-color: var(--buttonHover);
+}

@@ -1,6 +1,6 @@
-# code-quiz
+# Code Quiz
 
-## Description
+## How It Works
 
 ## Technology 
 HTML CSS JavaScript
