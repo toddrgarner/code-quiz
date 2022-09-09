@@ -13,6 +13,8 @@ Once the game is over, it will take them to an end screen which will display a c
  
 ## Github Repository URL:
 https://github.com/toddrgarner/code-quiz
+
 ## Code Quiz GIF:
+historyItem
 
 ### © 2022 Todd Garner. Confidential and Proprietary. All Rights Reserved.
