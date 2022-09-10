@@ -15,7 +15,6 @@ Once the game is over, it will take them to an end screen which will display a c
 https://github.com/toddrgarner/code-quiz
 
 ## Code Quiz GIF:
-
 ![quiz-gif-maker (1)](https://user-images.githubusercontent.com/110719370/189459834-cb5351d4-fd4e-428a-9863-3947e3614ef9.gif)
 
 ### © 2022 Todd Garner. Confidential and Proprietary. All Rights Reserved.
